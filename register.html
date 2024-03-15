@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Registration Page</title>
+	</head>
+
+	<body style="text-align:center;color:blue;">
+		<h1>Registration Form</h1>	
+		<form method="post" action="Reg.php">
+			<label>Register Number</label>
+			<input type="text" name="regno" placeholder="Enter Reg.No"/>
+			<br><br>
+			<label>Name</label>
+			<input type="text" name="sname" placeholder="Enter Name"/>
+			<br><br>
+			<label>Password</label>
+			<input type="password" name="pwd" placeholder="Password"/>
+			<br><br>
+			<label>Gender</label>
+			<input type="radio" name="gender" value="MALE">
+  			<label for="male">MALE</label><br>
+  			<input type="radio" name="gender" value="FEMALE">
+  			<label for="female">FEMALE</label><br>
+  			<input type="radio" name="gender" value="Others">
+  			<label for="Others">Others</label>
+			<br><br>
+			<label>Date of Birth</label>
+			<input type="date" name="dob"/>
+			<br><br>
+			<label for="course">Course: </label>
+			<select name="course">
+				<option value="Select Course">Select Course</option>
+  				<option value="c">C Language</option>
+				<option value="HTML">HTML</option>
+				<option value="CSS">CSS</option>
+				<option value="JavaScript">JAVASCRIPT</option>
+  				<option value="cpp">C++</option>
+  				<option value="java">JAVA</option>
+  				<option value="python">PYTHON</option>
+			</select>
+			<br><br>
+			<button type="submit">Submit</button>
+		</form>
+		
+	</body>
+</html>
