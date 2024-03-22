@@ -2,7 +2,7 @@
 
 #include the other page information
 include("db.php");
-
+include("links.html");
 $regno=$_POST["regno"];
 $sname=$_POST["sname"];
 $pass=$_POST["pwd"];
@@ -27,4 +27,5 @@ if(mysqli_query($conn,$sql)){
 }else{
 	echo "<h1> Not inserted";
 }
+
 ?>

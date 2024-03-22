@@ -1,11 +1,13 @@
 <?php
 include("db.php");
+include("links.html");
 $rno=$_POST["regno"];
 $sql="SELECT * FROM stud_info WHERE regno='$rno'";
 $result=mysqli_query($conn,$sql);
 ?>
 <center>
 <h1>Student Information</h1>
+
 <table border="5">
 <tr>
 <th>Register.No</th>
